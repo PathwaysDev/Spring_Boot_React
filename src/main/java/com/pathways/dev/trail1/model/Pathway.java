@@ -22,8 +22,10 @@ public class Pathway {
     @GeneratedValue
     private Long id;
     //private Instant date;
-    private String title;
+    private String name;
+
     private String description;
+    private String benchmarkTime;
     @ManyToMany
     private Set<Node> nodeStruct;
 }
