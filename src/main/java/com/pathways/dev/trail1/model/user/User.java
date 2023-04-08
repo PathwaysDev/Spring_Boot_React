@@ -1,4 +1,4 @@
-package com.pathways.dev.trail1.model;
+package com.pathways.dev.trail1.model.user;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

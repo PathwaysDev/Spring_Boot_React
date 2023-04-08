@@ -1,4 +1,5 @@
-package com.pathways.dev.trail1.model;
+package com.pathways.dev.trail1.model.category;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -12,12 +13,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Entity
-public class Resources {
+//type of node/pathway
+public class Category {
     @Id
     @GeneratedValue
     private String name;
-    private Long id;
-    private String content;
-
-    //maybe add type
 }
