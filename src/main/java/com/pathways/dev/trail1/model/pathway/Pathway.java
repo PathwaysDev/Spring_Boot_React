@@ -10,6 +10,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 
+import java.util.Collection;
 import java.util.Set;
 
 @Data
@@ -28,5 +29,5 @@ public class Pathway {
     private String description;
     private String benchmarkTime;
     @ManyToMany
-    private Set<Node> nodeStruct;
+    private Collection<Node> nodeStruct;
 }

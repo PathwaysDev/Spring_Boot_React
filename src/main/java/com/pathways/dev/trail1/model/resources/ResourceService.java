@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface ResourceService {
         Collection<Resources> findAll();
 
-        void save(Resources contactSubmission);
+        void save(Resources resources);
 
         Optional< Resources > findById(Long id);
 

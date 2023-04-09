@@ -8,7 +8,7 @@ import com.pathways.dev.trail1.model.user.User;
 public interface UserService {
     Collection< User > findAll();
 
-    void save(User contactSubmission);
+    void save(User user);
 
     Optional< User > findById(Long id);
 

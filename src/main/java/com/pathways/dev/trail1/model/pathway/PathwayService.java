@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface PathwayService {
     Collection<Pathway> findAll();
 
-    void save(Pathway contactSubmission);
+    void save(Pathway pathway);
 
     Optional< Pathway > findById(Long id);
 
